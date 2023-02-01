@@ -1,7 +1,13 @@
+var latLng = new kakao.maps.LatLng(37.5133284, 127.0314897);
 var map = new kakao.maps.Map(document.getElementById('map'), {
-  center: new kakao.maps.LatLng(37.539490, 126.997375),
+  center: latLng,
   level: 4
 });
+var marker = new kakao.maps.Marker({
+    map: map,
+    position: latLng
+});
+
 getCount().then(({count}) => {
   if (count <= MAX_RECENT_COMMENTS) {
     document.getElementById('guestbook-button').style.display = 'none';

@@ -1,6 +1,6 @@
-const SUPABASE_URL = 'https://bbruhsackdgiwtoxnkhz.supabase.co'
+const SUPABASE_URL = 'https://tqyuzcbjkjvjizflfpvn.supabase.co'
 const SUPABASE_KEY =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTY0MTE5NzU3MCwiZXhwIjoxOTU2NzczNTcwfQ.3yqcxMFv0pBfyFUiLbH2CDGK5KDKI5nAnpCUPUyU8aE'
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRxeXV6Y2Jqa2p2aml6ZmxmcHZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzUyNzY3MzMsImV4cCI6MTk5MDg1MjczM30.VYIKwmurK6o0KSdDLe8eJEht_xRcjanNADmASvRN2yc'
 const TABLE_ID = 'comments';
 const MAX_RECENT_COMMENTS = 3;
 
@@ -66,7 +66,7 @@ const renderGuestbook = async fetchData => {
   let idx = 0;
   for (let {id, created_at, name, message} of (await fetchData()).data) {
     const date = new Date(created_at).toLocaleString('ko-KR');
-    guestbook.insertAdjacentHTML('beforeend', 
+    guestbook.insertAdjacentHTML('beforeend',
       `<div class="entry">
          <div class="row">
            <span class="name">${escapeHtml(name)}</span>
