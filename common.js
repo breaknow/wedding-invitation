@@ -1,6 +1,6 @@
-const SUPABASE_URL = 'https://tqyuzcbjkjvjizflfpvn.supabase.co'
+const SUPABASE_URL = 'https://bueoonxcrpfeqzyelvoz.supabase.co'
 const SUPABASE_KEY =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRxeXV6Y2Jqa2p2aml6ZmxmcHZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzUyNzY3MzMsImV4cCI6MTk5MDg1MjczM30.VYIKwmurK6o0KSdDLe8eJEht_xRcjanNADmASvRN2yc'
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ1ZW9vbnhjcnBmZXF6eWVsdm96Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDkyMjU2MTgsImV4cCI6MjAyNDgwMTYxOH0.xmCAHldeuNFJ1_NcfmnH_XPiFy_zJ58ATFBSMx3weBg'
 const TABLE_ID = 'comments';
 const MAX_RECENT_COMMENTS = 3;
 
