@@ -1,7 +1,7 @@
-var latLng = new kakao.maps.LatLng(37.5133284, 127.0314897);
+var latLng = new kakao.maps.LatLng(37.5032423, 127.0465779);
 var map = new kakao.maps.Map(document.getElementById('map'), {
   center: latLng,
-  level: 4
+  level: 3
 });
 var marker = new kakao.maps.Marker({
     map: map,
